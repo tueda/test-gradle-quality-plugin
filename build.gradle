@@ -1,0 +1,11 @@
+plugins {
+  id 'java'
+  id 'application'
+  id 'ru.vyarus.quality' version '3.4.0'
+}
+
+mainClassName = 'example.Sample'
+
+repositories {
+  mavenCentral()
+}
